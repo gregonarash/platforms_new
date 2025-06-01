@@ -20,6 +20,9 @@ export default async function HomePage() {
             {rootDomain}
           </h1>
           <p className="mt-3 text-lg text-gray-600">
+          NEXT_PUBLIC_VERCEL_BRANCH_URL {process.env.NEXT_PUBLIC_VERCEL_BRANCH_URL}
+          NEXT_PUBLIC_VERCEL_PROJECT_PRODUCTION_URL {process.env.NEXT_PUBLIC_VERCEL_PROJECT_PRODUCTION_URL}
+          NEXT_PUBLIC_VERCEL_URL {process.env.NEXT_PUBLIC_VERCEL_URL}
             Create your own subdomain with a custom emoji
           </p>
         </div>
